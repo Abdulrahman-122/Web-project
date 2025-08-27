@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viowport" width="device-width , initial-scale=1.0" />
+    <title>QR code componant</title>
+    <link
+      rel="icon"
+      type="image/jpg"
+      href="/qr-code-component-main/images/favicon-32x32.png"
+    />
+    <style type="text/css">
+      body {
+       display:flex;
+       justify-content: center;
+       align-items: center;
+       height:100vh; /*means : item will stretch from the top to the bottom of the screen*/
+       background-color:hsl(212, 45%, 89%);
+       margin:0px;   /*no extra space around the page.*/
+      }
+
+      div.modify{
+        padding:20px;
+        background-color: white;
+        border-radius:15px;
+        width:300px;
+        box-shadow:0 10px 20px rgba(0,0,0,.15);
+      }
+      .qr-img{
+        
+        width:100%;     /*Make the image fit the whole size of the parent element that contain it*/
+        border-radius: 10px;
+      }
+      .modify h1{
+        font-size:18px;
+        color:hsl(218,44%,22%);
+        margin:20px 0 10px;
+      }
+      .modify p{
+        font-size:15px;
+        color: hsl(216, 15%, 48%)
+      }
+    </style>
+  </head>
+  <body>
+    <div class="modify">
+      <img src="/qr-code-component-main\images\image-qr-code.png" alt="QR-image" class="qr-img" />
+      <h1>
+        Improve your front-end<br />
+        skills by building projects
+      </h1>
+      <p>
+        Scan the QR code to visit Frontend<br />Mentor and take your coding
+        skills to<br />the next level
+      </p>
+    </div>
+  </body>
+</html>
